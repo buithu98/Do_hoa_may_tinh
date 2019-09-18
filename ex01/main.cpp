@@ -8,10 +8,10 @@
 void myDisplay() {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glBegin(GL_POLYGON);
-    glVertex3f(0.25, 0.25, 0);
-    glVertex3f(0.75, 0.25, 0);
-    glVertex3f(0.75, 0.75, 0);
-    glVertex3f(0.25, 0.75, 0);
+    glVertex3f(0.0, 0.0, 0);
+    glVertex3f(0.7, 0.0, 0);
+    glVertex3f(0.7, 0.7, 0);
+    glVertex3f(0.0, 0.7, 0);
     glEnd();
     glFlush();
     glutSwapBuffers();
